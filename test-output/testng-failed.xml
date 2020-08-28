@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="true">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="TestNG_Tasks.Activity_1"/>
+      <class name="TestNG_Tasks.Activity_2"/>
+      <class name="TestNG_Tasks.Activity_3"/>
+      <class name="TestNG_Tasks.Activity_4"/>
+      <class name="TestNG_Tasks.Activity_5"/>
+      <class name="TestNG_Tasks.Activity_6"/>
+      <class name="TestNG_Tasks.Activity_7"/>
+      <class name="TestNG_Tasks.Activity_8"/>
+      <class name="TestNG_Tasks.Activity_9"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
